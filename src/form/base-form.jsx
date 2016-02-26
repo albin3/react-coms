@@ -10,7 +10,7 @@ let Form = React.createClass({
   },
   render: function () {
     return (
-      <form className="base-form" {...this.props}>
+      <form {...this.props} className="base-form">
         {this.props.children}
       </form>
     );

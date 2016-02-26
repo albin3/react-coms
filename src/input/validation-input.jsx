@@ -132,7 +132,7 @@ let ValidationInput = React.createClass({
     return (
       <div className="validation-input">
         { label }
-        <Input onChange={this.onChange} onBlur={this.onBlur} style={{border: '1px solid ' + this.state.color || '#ccc'}} {...this.props}/>
+        <Input {...this.props} onChange={this.onChange} onBlur={this.onBlur} style={{border: '1px solid ' + this.state.color || '#ccc'}}/>
         <span className="message" style={{color: this.state.color || '#ccc'}}>
           { this.state.message }
         </span>

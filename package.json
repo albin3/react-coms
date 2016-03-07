@@ -1,6 +1,6 @@
 {
   "name": "react-coms",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "写几个react组件",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/albin3/react-coms.git"
   },
-  "author": "",
+  "author": "Albin Zeng",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/albin3/react-coms/issues"
